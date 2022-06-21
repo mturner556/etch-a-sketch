@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+
+    <main>
+        <div id="container"></div>
+
+        <div id="menu">
+            <button class="colorMode" onclick="colorMode('black')">Black</button>
+            <button class="colorMode" onclick="colorMode('white')">Erase</button>
+            <button class="colorMode" onclick="colorMode('random')">Random</button>
+
+
+            <button class="colorMode" onclick="clearDiv()">Clear</button>
+            <button id="gridButton">Select Grid Size</button>
+        </div>
+    </main>
+
+    <footer>
+        <div>Built by  mturner556 2022</div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
